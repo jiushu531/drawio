@@ -1,1 +1,70 @@
-<mxfile host="app.diagrams.net" modified="2022-01-04T08:03:49.360Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" version="15.8.8" etag="a1N8ah0a4wodukWHECK0" type="github"><diagram id="X1k5IYdcqaVMHulQQgmN">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-01-05T12:39:42.317Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="BWy2HI7RvFJn2mg-G4ag" version="16.1.4" type="github">
+  <diagram id="X1k5IYdcqaVMHulQQgmN" name="Page-1">
+    <mxGraphModel dx="1117" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fDaZjcdufsY2O5efJ0XD-1" value="" style="endArrow=none;html=1;rounded=1;sketch=0;curved=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="10" y="200" as="sourcePoint" />
+            <mxPoint x="520" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fDaZjcdufsY2O5efJ0XD-2" value="APP UI" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="170" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fDaZjcdufsY2O5efJ0XD-3" value="TUIRoomCore" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="170" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fDaZjcdufsY2O5efJ0XD-17" value="" style="endArrow=none;html=1;rounded=1;sketch=0;curved=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="10" y="480" as="sourcePoint" />
+            <mxPoint x="520" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fDaZjcdufsY2O5efJ0XD-18" value="trtc-wx" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;labelBackgroundColor=none;sketch=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="60" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fDaZjcdufsY2O5efJ0XD-19" value="tim-wx-sdk" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;labelBackgroundColor=none;sketch=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="195" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fDaZjcdufsY2O5efJ0XD-20" value="tsignaling-wx" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;labelBackgroundColor=none;sketch=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="340" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fDaZjcdufsY2O5efJ0XD-21" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="30" y="290" width="430" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="fDaZjcdufsY2O5efJ0XD-4" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="fDaZjcdufsY2O5efJ0XD-21">
+          <mxGeometry width="430" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="fDaZjcdufsY2O5efJ0XD-11" value="&lt;span style=&quot;color: rgb(24, 43, 80); font-family: &amp;quot;microsoft yahei&amp;quot;, &amp;quot;helvetica neue&amp;quot;, &amp;quot;pingfang sc&amp;quot;, sans-serif; font-size: 14px; text-align: left;&quot;&gt;TUIRoomLifecycle&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;labelBackgroundColor=none;sketch=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="fDaZjcdufsY2O5efJ0XD-21">
+          <mxGeometry x="20" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fDaZjcdufsY2O5efJ0XD-12" value="&lt;span style=&quot;color: rgb(24 , 43 , 80) ; font-family: &amp;#34;microsoft yahei&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;pingfang sc&amp;#34; , sans-serif ; font-size: 14px ; text-align: left&quot;&gt;TUIRoomAuth&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;labelBackgroundColor=none;sketch=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="fDaZjcdufsY2O5efJ0XD-21">
+          <mxGeometry x="155" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fDaZjcdufsY2O5efJ0XD-13" value="&lt;span style=&quot;color: rgb(24, 43, 80); font-family: &amp;quot;microsoft yahei&amp;quot;, &amp;quot;helvetica neue&amp;quot;, &amp;quot;pingfang sc&amp;quot;, sans-serif; font-size: 14px; text-align: left;&quot;&gt;RoomCoordinator&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;labelBackgroundColor=none;sketch=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="fDaZjcdufsY2O5efJ0XD-21">
+          <mxGeometry x="290" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fDaZjcdufsY2O5efJ0XD-14" value="&lt;span style=&quot;color: rgb(24, 43, 80); font-family: &amp;quot;microsoft yahei&amp;quot;, &amp;quot;helvetica neue&amp;quot;, &amp;quot;pingfang sc&amp;quot;, sans-serif; font-size: 14px; text-align: left;&quot;&gt;TRTCService&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;labelBackgroundColor=none;sketch=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="fDaZjcdufsY2O5efJ0XD-21">
+          <mxGeometry x="20" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fDaZjcdufsY2O5efJ0XD-15" value="&lt;span style=&quot;color: rgb(24, 43, 80); font-family: &amp;quot;microsoft yahei&amp;quot;, &amp;quot;helvetica neue&amp;quot;, &amp;quot;pingfang sc&amp;quot;, sans-serif; font-size: 14px; text-align: left;&quot;&gt;TIMService&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;labelBackgroundColor=none;sketch=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="fDaZjcdufsY2O5efJ0XD-21">
+          <mxGeometry x="155" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fDaZjcdufsY2O5efJ0XD-16" value="&lt;span style=&quot;color: rgb(24, 43, 80); font-family: &amp;quot;microsoft yahei&amp;quot;, &amp;quot;helvetica neue&amp;quot;, &amp;quot;pingfang sc&amp;quot;, sans-serif; font-size: 14px; text-align: left;&quot;&gt;TSignalingService&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;labelBackgroundColor=none;sketch=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="fDaZjcdufsY2O5efJ0XD-21">
+          <mxGeometry x="290" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fDaZjcdufsY2O5efJ0XD-22" value="逻辑层" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="310" width="20" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="fDaZjcdufsY2O5efJ0XD-23" value="U&lt;br&gt;I&lt;br&gt;层" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="120" width="20" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="fDaZjcdufsY2O5efJ0XD-24" value="S&lt;br&gt;D&lt;br&gt;K" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="500" width="20" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
