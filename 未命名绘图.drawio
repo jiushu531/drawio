@@ -1,9 +1,71 @@
-<mxfile host="app.diagrams.net" modified="2023-07-14T03:36:00.442Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="21.3.8" etag="G8H9_6asXISzcH7bChs4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-14T03:53:07.578Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="u_8ADMeVb8hUN1T-yUBB" version="21.3.8" type="github">
   <diagram name="第 1 页" id="5K9vIl2_KgrFC6H6II1F">
-    <mxGraphModel>
+    <mxGraphModel dx="1455" dy="812" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="690" pageHeight="980" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Qoif_rLCkdV2CTG1rmWO-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="Qoif_rLCkdV2CTG1rmWO-1" target="Qoif_rLCkdV2CTG1rmWO-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qoif_rLCkdV2CTG1rmWO-1" value="hasVideoStreamList +1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="120" y="230" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qoif_rLCkdV2CTG1rmWO-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="Qoif_rLCkdV2CTG1rmWO-2" target="Qoif_rLCkdV2CTG1rmWO-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qoif_rLCkdV2CTG1rmWO-2" value="远端用户进房" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="275" y="70" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qoif_rLCkdV2CTG1rmWO-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="Qoif_rLCkdV2CTG1rmWO-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qoif_rLCkdV2CTG1rmWO-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="Qoif_rLCkdV2CTG1rmWO-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qoif_rLCkdV2CTG1rmWO-4" value="hasVideoStreamList &amp;gt; 5" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;" vertex="1" parent="1">
+          <mxGeometry x="250" y="340" width="145" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Qoif_rLCkdV2CTG1rmWO-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;entryX=0.476;entryY=0.024;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Qoif_rLCkdV2CTG1rmWO-5" target="Qoif_rLCkdV2CTG1rmWO-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="441" y="226" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="441" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qoif_rLCkdV2CTG1rmWO-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="Qoif_rLCkdV2CTG1rmWO-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="195" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="195" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qoif_rLCkdV2CTG1rmWO-5" value="hasVideo？" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;" vertex="1" parent="1">
+          <mxGeometry x="271.25" y="120" width="127.5" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Qoif_rLCkdV2CTG1rmWO-8" value="true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="220" y="140" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qoif_rLCkdV2CTG1rmWO-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="Qoif_rLCkdV2CTG1rmWO-10" target="Qoif_rLCkdV2CTG1rmWO-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qoif_rLCkdV2CTG1rmWO-10" value="hasVideoStreamList -1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="360" y="230" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qoif_rLCkdV2CTG1rmWO-12" value="false" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="405" y="140" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qoif_rLCkdV2CTG1rmWO-17" value="播放大流&lt;br&gt;kCameraStream" style="whiteSpace=wrap;html=1;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;" vertex="1" parent="1">
+          <mxGeometry x="150" y="480" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Qoif_rLCkdV2CTG1rmWO-18" value="播放小流&lt;br&gt;kCameraStreamLow" style="whiteSpace=wrap;html=1;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;" vertex="1" parent="1">
+          <mxGeometry x="380" y="480" width="120" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
